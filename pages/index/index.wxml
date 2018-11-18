@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view>
+  <view class="head" style="background:url(../../resources/pic7.png);height: 300rpx; background-size:cover">
+   <view class="top" >
+     <view class="search">
+        <text class="iconfont icon-sousuo"></text>
+        <input type="text" placeholder='搜索本店内商品' class="txt" />
+      </view>
+     <view class="fl">
+       <view class="iconfont icon-category"></view>
+        <text >分类</text>
+     </view>
+    </view>
+    <view class="nav">
+     <text>首页</text>
+     <text>全部</text>
+     <text>促销</text>
+     <text>上新</text>
+     <text>动态</text>
+   </view>
+  </view>
+  <view>
+    <image src="../../resources/pic2.jpg" class="bigpic"></image>
+    <view>
+      <view wx:for="{{pic}}" style="background:url(../../resources/{{item}});background-size:cover;" class="tu"></view>
+    </view>
+  </view>
+</view>

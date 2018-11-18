@@ -1,0 +1,55 @@
+/**index.wxss**/
+.head {
+  position: relative;
+}
+.top {
+  display: flex;
+  position: absolute;
+  top: 20rpx;
+  left: 0;
+  right: 0;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  /* background-image: url(../../resources/pic7.png); */
+  padding: 0 30rpx;
+  /* margin-top: 30rpx;  */
+  /* height: 300rpx; */
+}
+
+.search {
+  flex: 1;
+  font-size: 30rpx;
+  position: relative;
+  margin-right: 30rpx;
+  background: rgba(255,255,255,0.4);
+  padding: 10rpx 0 10rpx 80rpx;
+  height: 50rpx;
+  border-radius: 35rpx;
+}
+
+.icon-sousuo {
+  position: absolute;
+  top: 17rpx;
+  left: 25rpx;
+}
+
+.fl {
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.nav {
+  position: absolute;
+  bottom: 10rpx;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tu {
+  height: 450rpx;
+  float: left;
+  width: 50%;
+}
